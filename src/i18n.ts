@@ -1,9 +1,7 @@
 // Import necessary functions from next-intl and next/navigation packages
+import { locales } from "@/locales/config";
 import { getRequestConfig } from "next-intl/server";
 import { notFound } from "next/navigation";
-
-// Define an array of supported locales
-const locales = ["en", "lv"];
 
 // This function configures internationalization for Next.js pages
 export default getRequestConfig(async ({ locale }) => {
