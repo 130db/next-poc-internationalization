@@ -16,7 +16,6 @@ export default async function Home() {
       />
 
       <div className="font-mono text-center">{t("subtitle")}</div>
-      <div className="font-mono text-center"></div>
     </main>
   );
 }

@@ -42,37 +42,36 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       telephone: false,
     },
     manifest: "/manifest.json",
-    openGraph: {
-      title: t("title"),
-      siteName: t("sitename"),
-      description: t("description"),
-      url: SITE_URL,
-      type: "website",
-      // images: ["/some-specific-page-image.jpg", ...previousImages],
-      images: [
-        {
-          url: "/static/130db-1.jpg",
-          width: 1600,
-          height: 900,
-          alt: "TODO: Give this image a description",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      site: "@130db",
-      creator: "@AigarsSukurs",
-      title: t("title"),
-      description: t("description"),
-      images: [
-        {
-          url: "/static/130db-1.jpg",
-          width: 1600,
-          height: 900,
-          alt: "TODO: Give this image a description",
-        },
-      ],
-    },
+    // openGraph: {
+    //   title: t("title"),
+    //   siteName: t("sitename"),
+    //   description: t("description"),
+    //   url: SITE_URL,
+    //   type: "website",
+    //   images: [
+    //     {
+    //       url: "TODO: URL to image",
+    //       width: 1600,
+    //       height: 900,
+    //       alt: "TODO: Give this image a description",
+    //     },
+    //   ],
+    // },
+    // twitter: {
+    //   card: "summary_large_image",
+    //   site: "@130db",
+    //   creator: "@AigarsSukurs",
+    //   title: t("title"),
+    //   description: t("description"),
+    //   images: [
+    //     {
+    //       url: "TODO: URL to image",
+    //       width: 1600,
+    //       height: 900,
+    //       alt: "TODO: Give this image a description",
+    //     },
+    //   ],
+    // },
   };
 
   let verification = {};

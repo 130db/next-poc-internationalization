@@ -1,11 +1,11 @@
 {
   "index": {
-    "title": "Hello!",
+    "title": "Hello world!",
     "subtitle": "NextJS. TypeScript. TopLoader"
   },
   "meta": {
-    "sitename": "130db",
-    "title": "The process is the game, not the result",
-    "description": "130db aka Aigars Sukurs, is software developer and tester"
+    "sitename": "SITE",
+    "title": "Hello space!",
+    "description": "Miles away"
   }
 }
