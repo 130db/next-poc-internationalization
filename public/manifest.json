@@ -1,0 +1,25 @@
+{
+  "name": "130db Template",
+  "theme_color": "#d4d4d4",
+  "background_color": "#d4d4d4",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "splash_pages": null,
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "72x72 96x96 128x128 256x256"
+    },
+    {
+      "src": "/icon/manifest.svg",
+      "sizes": "any"
+    },
+    {
+      "src": "/icon/maskable.png",
+      "sizes": "196x196 256x256 512x512 1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
