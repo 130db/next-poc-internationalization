@@ -1,6 +1,9 @@
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations("index");
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-yellow-500 gap-6">
       <Image
@@ -12,7 +15,8 @@ export default function Home() {
         priority
       />
 
-      <div className="font-mono text-center">NextJS. Typescript. Toploader</div>
+      <div className="font-mono text-center">{t("subtitle")}</div>
+      <div className="font-mono text-center"></div>
     </main>
   );
 }
