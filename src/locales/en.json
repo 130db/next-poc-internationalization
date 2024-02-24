@@ -7,5 +7,13 @@
     "sitename": "SITE",
     "title": "Hello space!",
     "description": "Miles away"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Sad life of a subtitle"
   }
 }

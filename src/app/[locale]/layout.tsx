@@ -1,3 +1,4 @@
+import Header from "@/components/ui/Header";
 import { Metadata, Viewport } from "next";
 import { getTranslations } from "next-intl/server";
 import Script from "next/script";
@@ -106,8 +107,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang={locale}>
-      <body>
+      <body className="antialiased scroll-smooth bg-neutral-50 text-neutral-800 dark:bg-neutral-900 dark:text-neutral-300">
         <NextTopLoader showSpinner={false} height={2} />
+        <Header />
         {children}
 
         {GA_MEASUREMENT_ID ? (

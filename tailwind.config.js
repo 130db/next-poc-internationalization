@@ -2,9 +2,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
       xxs: { max: "320px" },
@@ -18,6 +16,14 @@ module.exports = {
         "10xl": "104rem",
         "11xl": "112rem",
         "12xl": "120rem",
+      },
+      gap: {
+        "c-50":
+          "clamp(1.25rem, 3.84615385vw + 0.04807692rem, 3.125rem)" /* 20px - 50px */,
+      },
+      padding: {
+        "c-50":
+          "clamp(1.25rem, 3.84615385vw + 0.04807692rem, 3.125rem)" /* 20px - 50px */,
       },
     },
   },

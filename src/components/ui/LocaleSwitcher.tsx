@@ -32,7 +32,7 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 text-sm font-medium">
       <button onClick={() => switchLocale("en")}>English</button>
       <button onClick={() => switchLocale("lv")}>Latviski</button>
     </div>

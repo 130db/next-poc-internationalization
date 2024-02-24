@@ -1,4 +1,3 @@
-import LocaleSwitcher from "@/components/ui/LocaleSwitcher";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
@@ -17,9 +16,6 @@ export default async function Home() {
       />
 
       <div className="font-mono text-center">{t("subtitle")}</div>
-      <div className="font-mono text-center">
-        <LocaleSwitcher />
-      </div>
     </main>
   );
 }

@@ -7,5 +7,13 @@
     "sitename": "SITE",
     "title": "Sveiks kosmoss!",
     "description": "Jūdzēm tālu"
+  },
+  "menu": {
+    "home": "Sākums",
+    "about": "Par mums"
+  },
+  "about": {
+    "title": "Par projektu",
+    "subtitle": "Apakšvirsraksta skumjā dzīve"
   }
 }
