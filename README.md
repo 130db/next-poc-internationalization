@@ -4,13 +4,13 @@
 
 [Documentation of **next-intl**](https://next-intl-docs.vercel.app/docs/getting-started)
 
-For POCes I use my NextJS project template. Some files may be redundant
+This project serves as a starter kit for implementing a NextJS internationalization
 
 ## For testing / trying out
 
 ```shell
 git clone https://github.com/130db/next-poc-internationalization.git
-cd next-poc-internationalization.git
+cd next-poc-internationalization
 yarn install
 yarn dev
 ```
@@ -47,3 +47,16 @@ touch src/locales/en.json
 ```
 
 Check this project's source code for file contents
+
+This project uses [next-intl](https://github.com/amannn/next-intl) library.
+
+### Support
+
+Followm me on X (Twitter)
+
+Latviski: [X/Aigars Sukurs](https://twitter.com/AigarsSukurs)<br>
+English: [X/130db](https://twitter.com/130db)
+
+or support with a [Tip](https://revolut.me/130dbs) if you found it useful for your project
+
+For POCes I use my own NextJS project template. Some files my be redudant
