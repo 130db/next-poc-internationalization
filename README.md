@@ -52,7 +52,7 @@ This project uses [next-intl](https://github.com/amannn/next-intl) library.
 
 ### Support
 
-Followm me on X (Twitter)
+Follow me on X (Twitter)
 
 Latviski: [X/Aigars Sukurs](https://twitter.com/AigarsSukurs)<br>
 English: [X/130db](https://twitter.com/130db)
